@@ -1,4 +1,6 @@
-Make sure python is installed and it's interpreter is selected in vscode.
+Make sure python is installed and it's interpreter is selected in vscode. If you would prefer to select a specific environment, use the Python: Select Interpreter command from the Command Palette (Ctrl+Shift+P). Note: If the Python extension doesn't find an interpreter, it issues a warning. 
+
+
 On MacOs/Linux type "python3 -m venv .venv", this creates a virtual environment. Select yes in the pop-up to use the new virtual envirnoment.
 Now open a new terminal to be in the virtual env folder. The activate command is probably loading the virtual env. "source "/Users/syedahsanaskari/Documents/AI/Python Practice/Virtual Env/.venv/bin/activate"".
 Test it by trying to install a library using pip. Example "pip install discord".
